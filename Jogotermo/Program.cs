@@ -8,7 +8,10 @@ class Program
         ExibirCabecalho();
         string[] palavras = ["TESTE", "TRENS", "CASAS", "FOGAO", "MELAO", "UMBOS"];
         int indiceAleatorio = RandomNumberGenerator.GetInt32(palavras.Length);
-        return palavras[indiceAleatorio];
+        Console.WriteLine(palavras[indiceAleatorio]);
+
+
+
 
     }
 
