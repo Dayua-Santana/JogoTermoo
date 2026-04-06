@@ -1,5 +1,5 @@
 # 🔥 Jogo do Termo em C#
-![alt text](JogoTermo_5CNY6VvcGb.gif)
+![alt text](Jogotermo_Vy3OFSj04L.gif)
 
 Um clone do popular jogo de adivinhação de palavras (Wordle/Termo) desenvolvido em C# como aplicação de console. O projeto foca em lógica de programação, manipulação de arrays e interação via terminal.
 
