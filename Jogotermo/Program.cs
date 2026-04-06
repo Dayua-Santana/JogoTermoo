@@ -6,6 +6,9 @@ class Program
     static void Main(string[] args)
     {
         ExibirCabecalho();
+        string[] palavras = ["TESTE", "TRENS", "CASAS", "FOGAO", "MELAO", "UMBOS"];
+        int indiceAleatorio = RandomNumberGenerator.GetInt32(palavras.Length);
+        return palavras[indiceAleatorio];
 
     }
 
