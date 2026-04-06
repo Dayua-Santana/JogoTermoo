@@ -27,12 +27,6 @@ class Program
         Console.WriteLine("---------------------------------------------------");
     }
 
-    static bool jogadorDesejaContinuar()
-    {
-        Console.Write("Deseja Continuar? (S/N): ");
-        string? opcao = Console.ReadLine();
-        return (opcao?.Trim().ToUpper() == "S");
-    }
     static void ExecutarTentativasTermo(string palavraAleatoria)
     {
         int tentativas = 0;
@@ -97,6 +91,12 @@ class Program
             Console.WriteLine("-----------------------------------------------");
             Console.ReadLine();
         }
+    }
+    static bool jogadorDesejaContinuar()
+    {
+        Console.Write("Deseja Continuar? (S/N): ");
+        string? opcao = Console.ReadLine();
+        return (opcao?.Trim().ToUpper() == "S");
     }
 
 }
