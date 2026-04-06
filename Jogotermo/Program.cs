@@ -13,6 +13,23 @@ class Program
         int tentativas = 0;
         bool acertou = false;
 
+        ExecutarTentativasTermo(palavraAleatoria);
+
+    }
+
+    static void ExibirCabecalho()
+    {
+        Console.WriteLine("---------------------------------------------------");
+        Console.WriteLine("🔥 JOGO DO TERMO 🔥");
+        Console.WriteLine("🟩 = Correta | 🟨 = Existe | 🔴 = Não existe");
+        Console.WriteLine("---------------------------------------------------");
+    }
+
+    static void ExecutarTentativasTermo(string palavraAleatoria)
+    {
+        int tentativas = 0;
+        bool acertou = false;
+
         while (tentativas < 6 && !acertou)
         {
             Console.Write($"\nTentativa {tentativas + 1} /6: ");
@@ -72,16 +89,6 @@ class Program
             Console.WriteLine("-----------------------------------------------");
             Console.ReadLine();
         }
-
-
-    }
-
-    static void ExibirCabecalho()
-    {
-        Console.WriteLine("---------------------------------------------------");
-        Console.WriteLine("🔥 JOGO DO TERMO 🔥");
-        Console.WriteLine("🟩 = Correta | 🟨 = Existe | 🔴 = Não existe");
-        Console.WriteLine("---------------------------------------------------");
     }
 
 }
