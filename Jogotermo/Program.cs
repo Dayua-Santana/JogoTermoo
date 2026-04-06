@@ -10,9 +10,6 @@ class Program
         int indiceAleatorio = RandomNumberGenerator.GetInt32(palavras.Length);
         string palavraAleatoria = palavras[indiceAleatorio];
 
-        int tentativas = 0;
-        bool acertou = false;
-
         ExecutarTentativasTermo(palavraAleatoria);
 
     }
